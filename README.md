@@ -50,10 +50,10 @@ a) Findings and results
 The best performer was the RandomForestClassifier(MinMaxScaler) with an accuracy of  38.44. The worse performer was model GaussianNB(MinMaxScaler) with an accuracy of 6.99.
 The highest difference in accuracy using the same model and different scaler was with the Linear Regression : StandardScaler LR (25.5302) MinMaxScaler LR (16.8578).
 
-![images](Results/Accuracy_MinMaxScaler.png)
+![images](images/Accuracy_MinMaxScaler.png)
 
 
-![images](Results/Accuracy_StandardScaler.png)
+![images](images/Accuracy_StandardScaler.png)
 
 
 Post Mortem 
