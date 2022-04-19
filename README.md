@@ -7,7 +7,7 @@ Group Members - Aaaron Simpson, Paaras Dhaliwal, Cragi Braganza , Gaetano Buongi
 Hypothesis: Predict the outcome of a Grand Prix in the 2022 Formula One Season and analyse different machine learning models to find
 an optimal strategy which can be applied for sports betting
 
-Model Summary: Compare different machine learning models such as logistic regression, LSMT and ARIMA to find an optimal model for predicting race outcome and compare the expected returns 
+Model Summary: Compare different machine learning models such as logistic regression, DecisionTreeClassifier, RandomForestClassifier, KNeighborsClassifier, GaussianNB and SGDClassifie to find an optimal model for predicting race outcome and compare the expected returns 
 
 Data Cleanup and Model Training: 
 
@@ -26,19 +26,35 @@ The main problem that arose was the limitations of the data set
 
 
 c) Training processes of interest
+We scaled the data using StandardScaler and MinMaxScaler and compared 6 different models to see which combination was performing better.
 
 3 Models compared against each other: 
 
 -  Logisitic Regression
 
--  LSMT
+-  DecisionTreeClassifier
 
-- ARIMA
+- RandomForestClassifier
+
+- KNeighborsClassifier
+
+- GaussianNB
+
+- SGDClassifie
 
 
 Discussion
 
 a) Findings and results
+
+The best performer was the RandomForestClassifier(MinMaxScaler) with an accuracy of  38.44. The worse performer was model GaussianNB(MinMaxScaler) with an accuracy of 6.99.
+The highest difference in accuracy using the same model and different scaler was with the Linear Regression : StandardScaler LR (25.5302) MinMaxScaler LR (16.8578).
+
+![images](Results/Accuracy_MinMaxScaler.png)
+
+
+![images](Results/Accuracy_StandardScaler.png)
+
 
 Post Mortem 
 
@@ -59,8 +75,8 @@ Project Timeline
 
 4. Creat and Run Model 3  19/4
 
-5. Compare findings with the graphs and predicte  vs actual outcome of strategies  19/4
+5. Compare findings with the graphs and predicte vs actual outcome of strategies  19/4
 
 6. Present it to make a case of the optimal strategy using our findings 19/4
 
-7. Post Martem our project flaws and problems etc. 19/4
+7. Post Mortem our project flaws and problems etc. 19/4
