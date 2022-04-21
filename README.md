@@ -57,7 +57,7 @@ The best performer model was the RandomForestClassifier with an accuracy of 86.3
 
 
 
-![images](images/Accuracy_StandardScaler.png)
+![images](images/models_comparison.png)
 
 
 Post Mortem 
