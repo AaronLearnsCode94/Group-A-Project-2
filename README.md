@@ -25,8 +25,12 @@ The main problem that arose was the limitations of the data set
 + Data had no subjective indicators of performance e.g. Cognitive Abilities on Race Day
 
 
+
+
+
+
 c) Training processes of interest
-We scaled the data using StandardScaler and MinMaxScaler and compared 6 different models to see which combination was performing better.
+We scaled the data using StandardScaler and compared 6 different models to see which combination was performing better.
 
 3 Models compared against each other: 
 
@@ -47,10 +51,10 @@ Discussion
 
 a) Findings and results
 
-The best performer was the RandomForestClassifier(MinMaxScaler) with an accuracy of  38.44. The worse performer was model GaussianNB(MinMaxScaler) with an accuracy of 6.99.
-The highest difference in accuracy using the same model and different scaler was with the Linear Regression : StandardScaler LR (25.5302) MinMaxScaler LR (16.8578).
+The best performer model was the RandomForestClassifier with an accuracy of 86.3315. The worse performer model was GaussianNB with an accuracy of 62.3880.
 
-![images](images/Accuracy_MinMaxScaler.png)
+
+
 
 
 ![images](images/Accuracy_StandardScaler.png)
@@ -61,6 +65,7 @@ Post Mortem
 
 a) Describing difficulties, questions and problems that arose
 
++ Time to pull data from api or using beautifulSoup for scraping.
 
 Project Timeline
 
