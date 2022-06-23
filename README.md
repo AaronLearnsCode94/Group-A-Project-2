@@ -59,29 +59,3 @@ The best performer model was the RandomForestClassifier with an accuracy of 86.3
 
 ![images](images/models_comparison.png)
 
-
-Post Mortem 
-
-
-a) Describing difficulties, questions and problems that arose
-
-+ Time to pull data from api or using beautifulSoup for scraping.
-
-Project Timeline
-
-
-0. Projection Ideation and Data Source Research
-
-1. Get Data and Clean it 12/4
-
-2. Create and run Model 1 14/4
-
-3. Create and Run Model 2 16/4
-
-4. Creat and Run Model 3  19/4
-
-5. Compare findings with the graphs and predicte vs actual outcome of strategies  19/4
-
-6. Present it to make a case of the optimal strategy using our findings 19/4
-
-7. Post Mortem our project flaws and problems etc. 19/4
