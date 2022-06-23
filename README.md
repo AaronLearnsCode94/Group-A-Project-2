@@ -50,7 +50,7 @@ a) Findings and results
 
 The best performing model was the RandomForestClassifier with an accuracy of 86.3315 
 
-The worse performer model was GaussianNB with an accuracy of 62.3880
+The worse performing model was GaussianNB with an accuracy of 62.3880
 
 ![images](images/models_comparison.png)
 
