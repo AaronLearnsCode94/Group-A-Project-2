@@ -9,7 +9,7 @@ an optimal strategy which can be applied for sports betting
 
 Model Summary: Compare different machine learning models such as logistic regression, DecisionTreeClassifier, RandomForestClassifier, KNeighborsClassifier, GaussianNB and SGDClassifie to find an optimal model for predicting race outcome and compare the expected returns 
 
-### Data Cleanup and Model Training: 
+### Data Cleanup and Model Training
 
 a) Data exploration and cleanup process 
 
@@ -49,9 +49,6 @@ We scaled the data using StandardScaler and compared 6 different models to see w
 a) Findings and results
 
 The best performer model was the RandomForestClassifier with an accuracy of 86.3315. The worse performer model was GaussianNB with an accuracy of 62.3880.
-
-
-
 
 
 ![images](images/models_comparison.png)
