@@ -9,7 +9,7 @@ an optimal strategy which can be applied for sports betting
 
 Model Summary: Compare different machine learning models such as logistic regression, DecisionTreeClassifier, RandomForestClassifier, KNeighborsClassifier, GaussianNB and SGDClassifie to find an optimal model for predicting race outcome and compare the expected returns 
 
-Data Cleanup and Model Training: 
+### Data Cleanup and Model Training: 
 
 a) Data exploration and cleanup process 
 
@@ -23,9 +23,6 @@ The main problem that arose was the limitations of the data set
 + Potential misaccuracy of data 
 
 + Data had no subjective indicators of performance e.g. Cognitive Abilities on Race Day
-
-
-
 
 
 
@@ -47,7 +44,7 @@ We scaled the data using StandardScaler and compared 6 different models to see w
 - SGDClassifie
 
 
-Discussion
+### Discussion
 
 a) Findings and results
 
